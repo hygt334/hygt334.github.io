@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité – Mes Finances</title>
+<style>
+:root{--fond:#f4f5f8;--carte:#fff;--texte:#1b2130;--doux:#6a7286;--accent:#3d6df2}
+@media (prefers-color-scheme:dark){:root{--fond:#121419;--carte:#1b1e25;--texte:#e8eaf0;--doux:#979eae;--accent:#6e93ff}}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+.carte{background:var(--carte);border-radius:14px;padding:20px 24px;margin-top:20px}
+h2{margin-top:0}
+p,li{color:var(--doux)}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Mes Finances</a></p>
+  <h1>Règles de confidentialité</h1>
+  <p>Mes Finances est une application de bureau personnelle, utilisée uniquement par son auteur pour ses propres comptes.</p>
+
+  <div class="carte">
+    <h2>Données Google utilisées</h2>
+    <p>Avec l’autorisation de l’utilisateur, l’application accède à Gmail en <b>lecture seule</b> (autorisation <code>gmail.readonly</code>). Elle recherche les mails de commande, de reçu et de facture, et en extrait uniquement l’expéditeur, l’objet, la date et le montant. Elle s’en sert pour rattacher chaque achat à la dépense bancaire correspondante et lui donner la bonne catégorie.</p>
+    <p>L’application ne peut ni envoyer, ni modifier, ni supprimer de mail.</p>
+  </div>
+
+  <div class="carte">
+    <h2>Stockage et partage</h2>
+    <ul>
+      <li>Les informations extraites sont enregistrées <b>uniquement sur l’ordinateur de l’utilisateur</b>. Le contenu complet des mails n’est pas conservé.</li>
+      <li>Les jetons d’accès Google sont chiffrés par Windows et restent sur cet ordinateur.</li>
+      <li>Aucune donnée n’est envoyée à un serveur de l’auteur ni partagée avec des tiers. Aucune donnée n’est vendue ni utilisée à des fins publicitaires.</li>
+      <li>L’utilisation des données reçues des API Google respecte les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d’API Google</a>, y compris les exigences d’utilisation limitée.</li>
+    </ul>
+  </div>
+
+  <div class="carte">
+    <h2>Retirer l’accès</h2>
+    <p>L’accès peut être retiré à tout moment, depuis l’application (bouton « Déconnecter Gmail ») ou depuis la page <a href="https://myaccount.google.com/permissions">Applications tierces de votre compte Google</a>.</p>
+  </div>
+</main>
+</body>
+</html>

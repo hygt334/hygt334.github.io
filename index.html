@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mes Finances</title>
+<style>
+:root{--fond:#f4f5f8;--carte:#fff;--texte:#1b2130;--doux:#6a7286;--accent:#3d6df2}
+@media (prefers-color-scheme:dark){:root{--fond:#121419;--carte:#1b1e25;--texte:#e8eaf0;--doux:#979eae;--accent:#6e93ff}}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+.logo{width:56px;height:56px;border-radius:14px;background:#3d6df2;color:#fff;display:grid;place-items:center;font-size:30px;font-weight:700}
+h1{margin:16px 0 4px}
+.carte{background:var(--carte);border-radius:14px;padding:20px 24px;margin-top:24px}
+p,li{color:var(--doux)}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">€</div>
+  <h1>Mes Finances</h1>
+  <p>Application personnelle de suivi des finances, installée sur un ordinateur Windows.</p>
+  <div class="carte">
+    <h2>Ce que fait l’application</h2>
+    <ul>
+      <li>Suivre ses comptes, ses dépenses, ses revenus et ses budgets.</li>
+      <li>Repérer automatiquement ses abonnements.</li>
+      <li>Lire, en lecture seule, ses propres mails de commande et de reçu (Gmail) pour classer chaque dépense dans la bonne catégorie.</li>
+    </ul>
+    <p>L’application est utilisée uniquement par son auteur, pour ses propres comptes. Toutes les données restent sur son ordinateur.</p>
+  </div>
+  <p><a href="confidentialite.html">Règles de confidentialité</a></p>
+</main>
+</body>
+</html>
